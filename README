@@ -1,0 +1,11 @@
+All Units - Abstract class that creates the List to know what armies are currently created
+master Army List - The SO that actually gets created. This should always exist, so I create it and drag it into the MasterArmyList slot in inspector for all the scripts that use it
+
+Army Set - Abstract Class that creates the List to know what Units are in an Army
+Starter Army - gets instantiated during run time; will hold the Units belonging to that army and should be added as an item in master Army List
+
+Unit - Class for basic players. All units should belong to a Starter Army
+
+Create Player - First screen when game is ran. On butotn Click, Creates two units and a Starter Army and loads the Overworld
+Debugger - Script that sits in Overworld and just puts a bunch of stuff in console .
+Display Battle - displays Army and Unit Stats in the Battle Scene
